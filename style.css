@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ba557a;
+}
+
+#timer {
+    display: flex;
+    gap: 10px;  /*Add spacing between boxes */
+}
+
+.time-segment {
+    margin: 0 10px;
+    text-align: center;
+    background-color: white; /* White background for each box */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add slight shadow */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.time-segment span {
+    font-size: 36px;
+    font-weight: bold;
+    color: inherit; /* Inherit the background color for contrast */
+}
+
+.time-segment p {
+    margin-top: 5px;
+}
